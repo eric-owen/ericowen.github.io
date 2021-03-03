@@ -1,0 +1,22 @@
+.projects {
+  width: 50%;
+  margin: auto;
+  min-height: 90vh;
+  @include flex(space-between, center, row);
+  text-align: center;
+  flex-wrap: wrap;
+
+  h2 {
+    margin: 5rem;
+  }
+}
+
+.crypto,
+.bets {
+  flex: 10 1 4rem;
+  margin: auto
+}
+
+.crypto img {
+  max-width: 5%;
+}
